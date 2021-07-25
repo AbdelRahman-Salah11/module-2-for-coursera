@@ -15,6 +15,7 @@ section{
     padding: 30px;
     background-color: gold;
     position:relative;
+    margin: 20px;
     }
 h4{
     border: 2px solid black;
@@ -41,14 +42,16 @@ h4{
 @media (min-width:992px){
     section{
         border: 2px solid black;
-        padding: 30px;
-       width: 31%;
+        padding: 35px;
+       width: 28%;
        height: 110px;
        float: right;
-      text-align: left;   
-       margin: 11px;
+       text-align: left;   
+       margin-right:5px;
       background-color: gold;
       position:relative;
+      right: 60px;
+      
     }
     h4{
         border: 2px solid black;
@@ -67,19 +70,20 @@ h4{
     section{
         border: 2px solid black;
          padding: 30px;
-          width: 300px;
+          width: 33%;
          height: 110px;
-        float: right;
+        float: left;
         text-align: left;   
         margin: 10px;
+        margin-top: 45px;
          background-color: gold;
         position:relative;
+        right: -125px ;
             }
 
     .tablet{
-            clear:both;
-            display: block;
-            width: 617px;
+            clear:left;
+            width: 68%;
             margin-top:10px;
             }
                  
